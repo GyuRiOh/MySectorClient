@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="NetRoot">
+      <UniqueIdentifier>{fe866135-6e27-41dc-aa0a-9513cbbb7665}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetRoot\LanServer">
+      <UniqueIdentifier>{f74e2886-eeb5-401c-a915-422e8ba0ad0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetRoot\LanClient">
+      <UniqueIdentifier>{53e6da2e-d968-4f7f-b354-e02dfc40a1ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetRoot\Common">
+      <UniqueIdentifier>{a33d4a87-ab59-4660-9564-2a3c56d8ce5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetRoot\NetServer">
+      <UniqueIdentifier>{36b0d813-6481-41d4-9dce-4346bc33a4dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetRoot\NetClient">
+      <UniqueIdentifier>{c84dff4d-590a-404d-b0bc-a4cc78c6b03d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SectorClient.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="NetRoot\Common\Lock.h">
+      <Filter>NetRoot\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="NetRoot\Common\LockFreeEnqQueue.h">
+      <Filter>NetRoot\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="NetRoot\Common\LockFreeQueue.h">
+      <Filter>NetRoot\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="NetRoot\Common\LockFreeStack.h">
+      <Filter>NetRoot\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="NetRoot\Common\MemTLS.h">
+      <Filter>NetRoot\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="NetRoot\Common\MyList.h">
+      <Filter>NetRoot\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="NetRoot\Common\MyMultimap.h">
+      <Filter>NetRoot\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="NetRoot\Common\MyRedBlackTree.h">
+      <Filter>NetRoot\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="NetRoot\Common\Parser.h">
+      <Filter>NetRoot\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="NetRoot\Common\PDHMonitor.h">
+      <Filter>NetRoot\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="NetRoot\Common\Profiler.h">
+      <Filter>NetRoot\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="NetRoot\Common\Queue.h">
+      <Filter>NetRoot\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="NetRoot\Common\QueueWithLock.h">
+      <Filter>NetRoot\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="NetRoot\Common\RingBuffer.h">
+      <Filter>NetRoot\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="NetRoot\Common\RPCBuffer.h">
+      <Filter>NetRoot\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="NetRoot\Common\Singleton.h">
+      <Filter>NetRoot\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="NetRoot\Common\SizedMemoryPool.h">
+      <Filter>NetRoot\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="NetRoot\Common\SizedMemTLS.h">
+      <Filter>NetRoot\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="NetRoot\Common\SwapQueue.h">
+      <Filter>NetRoot\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="NetRoot\Common\SystemLogger.h">
+      <Filter>NetRoot\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="NetRoot\Common\ChunkLockFree.h">
+      <Filter>NetRoot\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="NetRoot\Common\Crash.h">
+      <Filter>NetRoot\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="NetRoot\Common\JobQueue.h">
+      <Filter>NetRoot\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MonitorProtocol.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="NetRoot\NetServer\PipeManager.h">
+      <Filter>NetRoot\NetServer</Filter>
+    </ClInclude>
+    <ClInclude Include="NetRoot\NetServer\NetDummyPacket.h">
+      <Filter>NetRoot\NetServer</Filter>
+    </ClInclude>
+    <ClInclude Include="NetRoot\NetServer\NetEnums.h">
+      <Filter>NetRoot\NetServer</Filter>
+    </ClInclude>
+    <ClInclude Include="NetRoot\NetServer\NetLargePacket.h">
+      <Filter>NetRoot\NetServer</Filter>
+    </ClInclude>
+    <ClInclude Include="NetRoot\NetServer\NetPacket.h">
+      <Filter>NetRoot\NetServer</Filter>
+    </ClInclude>
+    <ClInclude Include="NetRoot\NetServer\NetPacketSet.h">
+      <Filter>NetRoot\NetServer</Filter>
+    </ClInclude>
+    <ClInclude Include="NetRoot\NetServer\NetPipe.h">
+      <Filter>NetRoot\NetServer</Filter>
+    </ClInclude>
+    <ClInclude Include="NetRoot\NetServer\NetServer.h">
+      <Filter>NetRoot\NetServer</Filter>
+    </ClInclude>
+    <ClInclude Include="NetRoot\NetServer\NetSession.h">
+      <Filter>NetRoot\NetServer</Filter>
+    </ClInclude>
+    <ClInclude Include="NetRoot\NetServer\NetSessionArray.h">
+      <Filter>NetRoot\NetServer</Filter>
+    </ClInclude>
+    <ClInclude Include="NetRoot\NetServer\NetSessionID.h">
+      <Filter>NetRoot\NetServer</Filter>
+    </ClInclude>
+    <ClInclude Include="NetRoot\NetServer\NetStub.h">
+      <Filter>NetRoot\NetServer</Filter>
+    </ClInclude>
+    <ClInclude Include="NetRoot\NetServer\NetUser.h">
+      <Filter>NetRoot\NetServer</Filter>
+    </ClInclude>
+    <ClInclude Include="NetRoot\NetClient\NetClient.h">
+      <Filter>NetRoot\NetClient</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="230706_SectorMonitor.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="230706_SectorMonitor.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="NetRoot\Common\Parser.cpp">
+      <Filter>NetRoot\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="NetRoot\Common\PDHMonitor.cpp">
+      <Filter>NetRoot\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="NetRoot\Common\Profiler.cpp">
+      <Filter>NetRoot\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="NetRoot\Common\RingBuffer.cpp">
+      <Filter>NetRoot\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="NetRoot\Common\SizedMemoryPool.cpp">
+      <Filter>NetRoot\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="NetRoot\Common\SystemLogger.cpp">
+      <Filter>NetRoot\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="NetRoot\Common\Crash.cpp">
+      <Filter>NetRoot\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="NetRoot\NetServer\NetLargePacket.cpp">
+      <Filter>NetRoot\NetServer</Filter>
+    </ClCompile>
+    <ClCompile Include="NetRoot\NetServer\NetPacket.cpp">
+      <Filter>NetRoot\NetServer</Filter>
+    </ClCompile>
+    <ClCompile Include="NetRoot\NetServer\NetPacketSet.cpp">
+      <Filter>NetRoot\NetServer</Filter>
+    </ClCompile>
+    <ClCompile Include="NetRoot\NetServer\NetPipe.cpp">
+      <Filter>NetRoot\NetServer</Filter>
+    </ClCompile>
+    <ClCompile Include="NetRoot\NetServer\NetServer.cpp">
+      <Filter>NetRoot\NetServer</Filter>
+    </ClCompile>
+    <ClCompile Include="NetRoot\NetServer\NetSession.cpp">
+      <Filter>NetRoot\NetServer</Filter>
+    </ClCompile>
+    <ClCompile Include="NetRoot\NetServer\NetSessionArray.cpp">
+      <Filter>NetRoot\NetServer</Filter>
+    </ClCompile>
+    <ClCompile Include="NetRoot\NetServer\NetSessionID.cpp">
+      <Filter>NetRoot\NetServer</Filter>
+    </ClCompile>
+    <ClCompile Include="NetRoot\NetClient\NetClient.cpp">
+      <Filter>NetRoot\NetClient</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="230706_SectorMonitor.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="230706_SectorMonitor.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

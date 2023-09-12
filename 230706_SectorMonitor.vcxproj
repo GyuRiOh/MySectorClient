@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{58684be7-935f-41a3-8ad3-42f125345681}</ProjectGuid>
+    <RootNamespace>My230706SectorMonitor</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="230706_SectorMonitor.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="MonitorProtocol.h" />
+    <ClInclude Include="NetRoot\Common\ChunkLockFree.h" />
+    <ClInclude Include="NetRoot\Common\Crash.h" />
+    <ClInclude Include="NetRoot\Common\JobQueue.h" />
+    <ClInclude Include="NetRoot\Common\Lock.h" />
+    <ClInclude Include="NetRoot\Common\LockFreeEnqQueue.h" />
+    <ClInclude Include="NetRoot\Common\LockFreeQueue.h" />
+    <ClInclude Include="NetRoot\Common\LockFreeStack.h" />
+    <ClInclude Include="NetRoot\Common\MemTLS.h" />
+    <ClInclude Include="NetRoot\Common\MyList.h" />
+    <ClInclude Include="NetRoot\Common\MyMultimap.h" />
+    <ClInclude Include="NetRoot\Common\MyRedBlackTree.h" />
+    <ClInclude Include="NetRoot\Common\Parser.h" />
+    <ClInclude Include="NetRoot\Common\PDHMonitor.h" />
+    <ClInclude Include="NetRoot\Common\Profiler.h" />
+    <ClInclude Include="NetRoot\Common\Queue.h" />
+    <ClInclude Include="NetRoot\Common\QueueWithLock.h" />
+    <ClInclude Include="NetRoot\Common\RingBuffer.h" />
+    <ClInclude Include="NetRoot\Common\RPCBuffer.h" />
+    <ClInclude Include="NetRoot\Common\Singleton.h" />
+    <ClInclude Include="NetRoot\Common\SizedMemoryPool.h" />
+    <ClInclude Include="NetRoot\Common\SizedMemTLS.h" />
+    <ClInclude Include="NetRoot\Common\SwapQueue.h" />
+    <ClInclude Include="NetRoot\Common\SystemLogger.h" />
+    <ClInclude Include="NetRoot\NetClient\NetClient.h" />
+    <ClInclude Include="NetRoot\NetServer\NetDummyPacket.h" />
+    <ClInclude Include="NetRoot\NetServer\NetEnums.h" />
+    <ClInclude Include="NetRoot\NetServer\NetLargePacket.h" />
+    <ClInclude Include="NetRoot\NetServer\NetPacket.h" />
+    <ClInclude Include="NetRoot\NetServer\NetPacketSet.h" />
+    <ClInclude Include="NetRoot\NetServer\NetPipe.h" />
+    <ClInclude Include="NetRoot\NetServer\NetServer.h" />
+    <ClInclude Include="NetRoot\NetServer\NetSession.h" />
+    <ClInclude Include="NetRoot\NetServer\NetSessionArray.h" />
+    <ClInclude Include="NetRoot\NetServer\NetSessionID.h" />
+    <ClInclude Include="NetRoot\NetServer\NetStub.h" />
+    <ClInclude Include="NetRoot\NetServer\NetUser.h" />
+    <ClInclude Include="NetRoot\NetServer\PipeManager.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SectorClient.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="230706_SectorMonitor.cpp" />
+    <ClCompile Include="NetRoot\Common\Crash.cpp" />
+    <ClCompile Include="NetRoot\Common\Parser.cpp" />
+    <ClCompile Include="NetRoot\Common\PDHMonitor.cpp" />
+    <ClCompile Include="NetRoot\Common\Profiler.cpp" />
+    <ClCompile Include="NetRoot\Common\RingBuffer.cpp" />
+    <ClCompile Include="NetRoot\Common\SizedMemoryPool.cpp" />
+    <ClCompile Include="NetRoot\Common\SystemLogger.cpp" />
+    <ClCompile Include="NetRoot\NetClient\NetClient.cpp" />
+    <ClCompile Include="NetRoot\NetServer\NetLargePacket.cpp" />
+    <ClCompile Include="NetRoot\NetServer\NetPacket.cpp" />
+    <ClCompile Include="NetRoot\NetServer\NetPacketSet.cpp" />
+    <ClCompile Include="NetRoot\NetServer\NetPipe.cpp" />
+    <ClCompile Include="NetRoot\NetServer\NetServer.cpp" />
+    <ClCompile Include="NetRoot\NetServer\NetSession.cpp" />
+    <ClCompile Include="NetRoot\NetServer\NetSessionArray.cpp" />
+    <ClCompile Include="NetRoot\NetServer\NetSessionID.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="230706_SectorMonitor.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="230706_SectorMonitor.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
